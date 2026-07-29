@@ -1,0 +1,103 @@
+.avatar{
+    width:100px;
+    height:100px;
+    border-radius:50%;
+    border:3px solid #3498db;
+    margin-bottom:20px;
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    background-color:#eeeeee;
+    font-family:Arial, sans-serif;
+    text-align:center;
+}
+.card{
+    width:350px;
+    background-color:white;
+    border:1px solid #cccccc;
+    border-radius:20px;
+    padding:30px;
+    margin:40px auto;
+}
+.avatar{
+    width:150px;
+    height:150px;
+    border-radius:50%;
+    border:5px solid #3498db;
+    margin-bottom:20px;
+}
+.name{
+    color:#1d3557;
+    font-size:2rem;
+    font-weight:bold;
+    text-transform:uppercase;
+    margin-bottom:10px;
+}
+
+.job{
+
+    color:gray;
+    font-size:1.1rem;
+    font-style:italic;
+    margin-bottom:20px;
+}
+.info p{
+
+    padding:12px;
+
+    border-bottom:1px solid #dddddd;
+}
+.skills{
+
+    margin-top:20px;
+    margin-bottom:25px;
+}
+
+.skill{
+
+    display:inline-block;
+    border:2px solid #3498db;
+    color:#3498db;
+    border-radius:20px;
+    padding:8px 18px;
+    margin:6px;
+    font-weight:bold;
+}
+.btn{
+
+    display:inline-block;
+    width:120px;
+    padding:12px;
+    margin:5px;
+    border-radius:8px;
+    text-decoration:none;
+    font-weight:bold;
+}
+.follow{
+
+    background-color:#3498db;
+    color:white;
+}
+.message{
+
+    background-color:white;
+    color:#3498db;
+    border:2px solid #3498db;
+}
+
+.follow:hover{
+
+    background-color:#1f7fd1;
+}
+
+.message:hover{
+
+    background-color:#3498db;
+
+    color:white;
+}
